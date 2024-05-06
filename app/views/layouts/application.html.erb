@@ -3,6 +3,12 @@
   <head>
     <title>ProductStock</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
@@ -11,9 +17,10 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="body-bg min-h-screen pt-10 md:pt-20 pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif;">
     <main class="container mx-auto mt-28 px-5 flex">
       <%= yield %>
     </main>
   </body>
 </html>
+ 

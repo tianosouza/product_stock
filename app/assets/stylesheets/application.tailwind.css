@@ -11,3 +11,7 @@
 }
 
 */
+.body-bg {
+  background-color: #219ce8;
+  background-image: linear-gradient(315deg, #219ce8 0%, #8fa3f3 74%);
+}
