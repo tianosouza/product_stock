@@ -11,6 +11,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "tailwindcss-rails"
 gem "jbuilder"
+gem "devise"
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
@@ -24,4 +25,3 @@ group :development do
   gem "web-console"
 
 end
-
